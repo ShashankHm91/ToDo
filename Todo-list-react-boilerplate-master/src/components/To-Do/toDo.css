@@ -1,0 +1,67 @@
+body {
+    background: rgb(6, 6, 49);
+    color: white;
+    text-align: center;
+}
+
+h2{
+    font-weight: bold;
+}
+
+#task {
+    padding-left: 1%;
+    width: 21%;
+    height: 5vh;
+    color: white;
+    background: rgb(6, 6, 49);
+    border: 1px solid blue;
+}
+
+.list {
+    margin-top: 2%;
+}
+
+.item-container {
+    display: flex;
+    margin: .7% 35% 0% 35%;
+    border-radius: 10px;
+    justify-content: center;
+    height: 6vh;
+    background: rgb(15, 15, 207);
+}
+
+li {
+    text-align: left;
+    list-style-type: none;
+    margin-top: 2%;
+    padding-left: 5%;
+    width: 40vw;
+    color: white;
+    /* border: 1px solid blue; */
+}
+
+i {
+    margin-top: 2.5%;
+    margin-right: 5%;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.fa-edit {
+    margin-right: 7%;
+}
+
+#btn {
+    margin: .5%;
+    width: 7%;
+    height: 6vh;
+    color: white;
+    border: none;
+    background: rgb(15, 15, 207);
+}
+
+#btn{
+    cursor: pointer;
+}
